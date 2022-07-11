@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.heading-1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding-bottom: 24px;
+}
+
+.heading-2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.heading-3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.heading-span {
+  color: #A00404;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 16px;
+}
+.heading-span--white {
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 16px;
+  color: #FFFFFF;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mb-6 {
+  margin-bottom: 48px;
+}
+
+.mb-8 {
+  margin-bottom: 64px;
+}
+
+.profile__name {
+  padding-top: 40px;
+  margin-bottom: 48px;
+  border-bottom: 2px solid #000000;
+}
+.profile__img {
+  margin-bottom: 48px;
+}
+.profile__title {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #000000;
+}
+.profile__text {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+.profile__text > p:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.education__title {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #000000;
+}
+.education__list {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+.education__list > li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.skills {
+  background-color: #415165;
+  color: #FFFFFF;
+  text-align: center;
+}
+.skills__title {
+  max-width: 996px;
+  margin: 0 auto;
+  padding-top: 24px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.skills__list {
+  max-width: 225px;
+  margin: 0 auto;
+  padding: 40px 0;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+.skills__list li {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+}
+.skills__list li:not(:last-child) {
+  padding-bottom: 8px;
+}
+
+.work-experience__title {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 16px;
+}
+.work-experience__list {
+  border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-left: 20px;
+}
+.work-experience__list li {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.work-experience__list li p {
+  max-width: 662px;
+}
+.work-experience__list li:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.contact {
+  background-color: #415165;
+  color: #FFFFFF;
+  text-align: center;
+}
+.contact__content {
+  padding-bottom: 40px;
+}
+.contact__title {
+  max-width: 996px;
+  margin: 0 auto;
+  padding-top: 24px;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 24px;
+}
+.contact__list {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+.contact__list li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.contact__list li a:link, .contact__list li a:visited {
+  color: #FFFFFF;
+}
+.contact__list-socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact__list-socialMedia li:not(:last-child) {
+  margin-right: 24px;
+}/*# sourceMappingURL=main.css.map */

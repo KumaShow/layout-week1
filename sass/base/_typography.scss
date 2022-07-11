@@ -1,0 +1,31 @@
+.heading-1 {
+    font-size: 80px;
+    line-height: 1.1875;
+    padding-bottom: 24px;
+}
+
+.heading-2 {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.heading-3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.heading-span {
+    color: $color-red;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 16px;
+
+    &--white {
+        font-size: 24px;
+        font-weight: 600;
+        margin-left: 16px;
+        color: $color-white;
+    }
+}
+
